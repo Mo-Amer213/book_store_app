@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:phone_store/drawer_routing_pages/advanced_login_two.dart';
 import './drawer_routing_pages/default_login.dart';
 import './drawer_routing_pages/default_login.dart';
 import './drawer_routing_pages/default_login.dart';
@@ -45,7 +46,7 @@ class PhoneStore extends StatelessWidget {
         'samsung_details':(context){return SamsungDetails();},
         'nokia_details':(context){return NokiaDetails();},
         'iphone_details':(context){return IphoneDetails();},
-        'login':(context){return DefaultLogin();},
+        'login':(context){return AdvancedLoginTwo();},
         'api_call':(context){return ApiTest();},
 
       } ,
